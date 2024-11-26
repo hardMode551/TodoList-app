@@ -1,0 +1,69 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+
+    min-width: 300px;
+
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 20px;
+  }
+  
+  .typography {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+  }
+  
+  .button-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button-secondary {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .status {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .status-completed {
+    color: #2ecc71;
+  }
+  
+  .status-not-completed {
+    color: #e74c3c;
+  }
