@@ -6,6 +6,7 @@
 - Front: React + typeScript + Fabric.js
 - Server: json-server
 
+Ссылка на демо-версию: https://todo-list-app-theta-swart.vercel.app/
 
 ## Инструкция по клонированию репозитория
 
