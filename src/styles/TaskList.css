@@ -11,9 +11,12 @@
   
   .card {
     background-color: #f7f7f7;
+
     border: 1px solid #ddd;
     border-radius: 10px;
+
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
+
     padding: 20px;
   }
   
@@ -28,15 +31,20 @@
   .typography {
     font-size: 16px;
     font-weight: bold;
+
     color: #333;
   }
   
   .button {
     padding: 10px 15px;
+
     font-size: 14px;
+
     border: none;
     border-radius: 5px;
+
     cursor: pointer;
+    
     transition: background-color 0.2s;
   }
   

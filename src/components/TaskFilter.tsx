@@ -6,7 +6,7 @@ interface TaskFilterProps {
 }
 
 const TaskFilter: React.FC<TaskFilterProps> = ({ onFilterChange }) => {
-  const [filterStatus, setFilterStatus] = useState('all');
+  const [, setFilterStatus] = useState('all');
 
   const handleFilterChange = (newFilterStatus: string) => {
     setFilterStatus(newFilterStatus);

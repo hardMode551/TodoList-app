@@ -9,7 +9,6 @@ const App: React.FC = () => {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* Добавьте другие страницы при необходимости */}
         </Routes>
       </Router>
     </TaskProvider>

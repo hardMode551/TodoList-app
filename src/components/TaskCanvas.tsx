@@ -90,7 +90,7 @@ const TaskCanvas: React.FC<TaskCanvasProps> = ({ tasks, updateTask }) => {
   const createTaskGroup = (
     task: Task,
     index: number,
-    canvas: fabric.Canvas,
+    _canvas: fabric.Canvas,
     canvasWidth: number
   ): fabric.Group => {
     const rect = new fabric.Rect({
